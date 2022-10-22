@@ -2,11 +2,11 @@ const { Pool } = require("pg")
 const axios = require("axios")
 
 const pool = new Pool({
-    user: "postgres",
-    host: "localhost",
-    password: "12345",
+    user: "-",
+    host: "-",
+    password: "-",
     database: "bancoSolar",
-    port: "5432",
+    port: "-",
     max: 20,
     idleTimeoutMillis: 4000,
     connectionTimeoutMillis: 0
